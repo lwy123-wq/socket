@@ -40,11 +40,24 @@ public class Mcs {
 
 }
 class MyMcs{
-    Mcs mcs=new Mcs();
-    Runnable rr=new Runnable() {
-        @Override
-        public void run() {
+    public static void main(String[] args) {
 
-        }
-    };
+        Mcs mcs=new Mcs();
+        Runnable rr=new Runnable() {
+            @Override
+            public void run() {
+                mcs.lock();
+                System.out.println(Thread.currentThread().getName());
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                mcs.unlock();
+            }
+        };
+        new Thread(rr).start();
+        new Thread(rr).start();
+        new Thread(rr).start();
+    }
 }
