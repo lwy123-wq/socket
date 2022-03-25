@@ -17,11 +17,12 @@ public class Server {
         ExecutorService executor= Executors.newCachedThreadPool();
         while (true){
             Socket s=ss.accept();
-            executor.submit(new MyRun(s));
+            //executor.submit(new MyRun(s));
         }
     }
 
 }
+/*
 class MyRun implements Runnable {
     Socket s;
 
@@ -45,4 +46,4 @@ class MyRun implements Runnable {
         }
 
     }
-}
+}*/
