@@ -2,15 +2,6 @@ package aa;
 
 import java.util.HashSet;
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
 public class Solution4 {
     public boolean hasCycle(ListNode head) {
         HashSet<ListNode> set=new HashSet<ListNode>();
@@ -21,5 +12,14 @@ public class Solution4 {
             head=head.next;
         }
         return false;
+    }
+}
+class ListNode {
+    int val;
+    ListNode next;
+
+    ListNode(int x) {
+        val = x;
+        next = null;
     }
 }
