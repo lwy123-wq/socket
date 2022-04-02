@@ -7,6 +7,7 @@ class Student{
     char sex;
     int age;
     String name;
+
     //构造方法
     public Student(int num, int Class, char sex, int age, String name) {
         this.num=num;
