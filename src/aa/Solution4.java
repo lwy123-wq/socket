@@ -14,6 +14,7 @@ public class Solution4 {
         return false;
     }
 }
+
 class ListNode {
     int val;
     ListNode next;
