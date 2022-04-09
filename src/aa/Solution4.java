@@ -15,6 +15,7 @@ public class Solution4 {
     }
 }
 
+
 class ListNode {
     int val;
     ListNode next;
