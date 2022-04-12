@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 public class FindGroup {
     public static void main(String[] args) {
         String msg = "JJJJ ppp@baidu.com xxx regular expressions in 11.4 啊啊啊啊啊 13811111111";
+
 //        System.out.println("(1) "+msg.replaceFirst("re\\w*?", "999"));//不建议写
 //        System.out.println("(2) "+msg.replaceFirst("re\\w*", "999"));
 //        System.out.println("(3) "+msg.replaceFirst("re\\w?", "999"));
