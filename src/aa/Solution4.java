@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 public class Solution4 {
     public boolean hasCycle(ListNode head) {
+
         HashSet<ListNode> set=new HashSet<ListNode>();
         while(head!=null){
             if(!set.add(head)){
@@ -14,7 +15,6 @@ public class Solution4 {
         return false;
     }
 }
-
 
 class ListNode {
     int val;
