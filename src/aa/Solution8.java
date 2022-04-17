@@ -1,7 +1,5 @@
 package aa;
 
-
-
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -17,17 +15,20 @@ package aa;
  *     }
  * }
  */
-class Solution7 {
-    public TreeNode1 mergeTrees(TreeNode1 root1, TreeNode1 root2) {
-        if(root1==null){
-            return root2;
+class Solution8{
+    int aa;
+    public int diameterOfBinaryTree(TreeNode1 root) {
+        aa=1;
+        depth(root);
+        return aa-1;
+    }
+    public int depth(TreeNode1 root){
+        if(root==null){
+            return 0;
         }
-        if(root2==null){
-            return root1;
-        }
-        TreeNode1 tree=new TreeNode1(root1.val+root2.val);
-        tree.left=mergeTrees(root1.left,root2.left);
-        tree.right=mergeTrees(root1.right,root2.right);
-        return tree;
+        int left1=depth(root.left);
+        int right1=depth(root.right);
+        aa=Math.max(aa,left1+right1+1);
+        return Math.max(left1,right1)+1;
     }
 }
