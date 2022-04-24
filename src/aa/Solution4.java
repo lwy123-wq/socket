@@ -3,6 +3,7 @@ package aa;
 import java.util.HashSet;
 
 public class Solution4 {
+
     public boolean hasCycle(ListNode head) {
 
         HashSet<ListNode> set=new HashSet<ListNode>();

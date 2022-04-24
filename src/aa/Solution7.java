@@ -15,8 +15,8 @@ package aa;
  *     }
  * }
  */
-
 class Solution7 {
+
     public TreeNode1 mergeTrees(TreeNode1 root1, TreeNode1 root2) {
         if(root1==null){
             return root2;
