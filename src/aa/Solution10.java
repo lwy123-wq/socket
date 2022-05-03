@@ -1,7 +1,5 @@
 package aa;
 
-import java.util.*;
-
 /*
  * public class ListNode {
  *   int val;
@@ -10,6 +8,7 @@ import java.util.*;
  */
 
 public class Solution10{
+
     /**
      *
      * @param head ListNode类
