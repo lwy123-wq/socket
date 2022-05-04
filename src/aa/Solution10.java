@@ -6,7 +6,6 @@ package aa;
  *   ListNode next = null;
  * }
  */
-
 public class Solution10{
 
     /**
