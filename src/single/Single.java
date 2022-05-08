@@ -6,6 +6,7 @@ public class Single  {
 
     private static AtomicInteger tmp=new AtomicInteger(0);
     private static Single single=null;
+
 /*
     public Single  run(){
         tmp.compareAndSet(0,1);
