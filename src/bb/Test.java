@@ -15,6 +15,7 @@ class MyIBM implements Arch{
         return 12;
     }
 }
+
 class MyHW implements Arch{
 
     @Override
