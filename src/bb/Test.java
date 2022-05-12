@@ -37,8 +37,11 @@ class MyHandler implements InvocationHandler {
         return c;
     }
 }
+
 public class Test {
+
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
+
         System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
         String str="bb.MyHW";
         Arch a= (Arch) Proxy.newProxyInstance(Arch.class.getClassLoader(),
