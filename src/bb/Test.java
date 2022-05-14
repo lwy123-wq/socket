@@ -11,6 +11,7 @@ class MyIBM implements Arch{
 
     @Override
     public int sale(int a) {
+
         System.out.println("ibm的电脑:"+a);
         return 12;
     }
@@ -25,6 +26,7 @@ class MyHW implements Arch{
     }
 }
 class MyHandler implements InvocationHandler {
+
     private Arch ibm;
     public MyHandler(Arch ibm){
         this.ibm=ibm;
