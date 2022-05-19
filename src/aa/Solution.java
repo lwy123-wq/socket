@@ -1,6 +1,7 @@
 package aa;
 
 public class Solution {
+
     public static void main(String[]args){
         int[] a=new int[]{2,7,11,15};
         int[] bb=Solution.twoSum(a,9);
