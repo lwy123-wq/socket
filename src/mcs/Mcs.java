@@ -3,10 +3,13 @@ package mcs;
 import java.util.concurrent.atomic.AtomicReference;
 
 class Node{
+
     public volatile boolean locked=false;
     Node next=null;
+
 }
 public class Mcs {
+
     private final AtomicReference<Node> tail;
     private final ThreadLocal<Node> newNode;
 
