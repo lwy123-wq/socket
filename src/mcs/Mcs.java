@@ -1,5 +1,6 @@
 package mcs;
 
+import java.util.HashSet;
 import java.util.concurrent.atomic.AtomicReference;
 
 class Node{
@@ -14,6 +15,7 @@ public class Mcs {
     private final ThreadLocal<Node> newNode;
 
     public Mcs(){
+
        tail=new AtomicReference<>();
        newNode=ThreadLocal.withInitial(()->new Node());
 
