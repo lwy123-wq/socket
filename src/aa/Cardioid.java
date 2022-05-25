@@ -41,9 +41,9 @@ public class Cardioid extends JFrame {
 
                 graphics1.setFont(new Font("楷体", Font.BOLD, 40));//设置字体
 
-                graphics1.drawString("我爱你", 180, 200);//绘制字符串
+                graphics1.drawString("love", 180, 200);//绘制字符串
 
-                graphics1.drawString("一万年", 220, 240);//绘制字符串
+                graphics1.drawString("you", 220, 240);//绘制字符串
 
                 graphics1.setColor(Color.MAGENTA);
 
