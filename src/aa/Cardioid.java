@@ -59,8 +59,6 @@ public class Cardioid extends JFrame {
 class CardioidDemo {
 
     public static void main(String[] args) {
-
         new Cardioid();
-
     }
 }
