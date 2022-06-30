@@ -17,8 +17,11 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        int[] a=new int[]{1,2,3,5,3,3,4};
-        System.out.println(Solution.removeDuplicates(a));
+        /*int[] a=new int[]{1,2,3,5,3,3,4};
+        System.out.println(Solution.removeDuplicates(a));*/
+        int x = 3;
+        x=x&(x-1);
+        System.out.println(x+"aaaaaaaaaaaaaaaa");
 
     }
 }
