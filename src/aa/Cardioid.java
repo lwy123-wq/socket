@@ -6,7 +6,6 @@ import java.awt.*;
 public class Cardioid extends JFrame {
     private static final int WIDTH=480;
     private static final int HEIGHT=600;
-
     private static final int WINDOW_WIDTH= Toolkit.getDefaultToolkit().getScreenSize().width;
     private static final int WINDOW_HEIGHT=Toolkit.getDefaultToolkit().getScreenSize().height;
 
